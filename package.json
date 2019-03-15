@@ -1,0 +1,27 @@
+{
+  "name": "gti",
+  "version": "1.0.0",
+  "description": "Framework for graphql typescript",
+  "scripts": {
+    "test": "test",
+    "lint": "tslint \"src/**/*.ts\"",
+    "watch": "nodemon",
+    "run": "ts-node src/index.ts"
+  },
+  "author": "Ben Chalmers",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.11.3",
+    "@types/reflect-metadata": "^0.1.0",
+    "nodemon": "^1.18.10",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^4.0.6",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typeorm": "^0.2.15-rc.2",
+    "typescript": "^3.3.3333"
+  }
+}
